@@ -38,3 +38,4 @@ ALTER TABLE specializations ADD FOREIGN KEY (vets_id) REFERENCES vets (id);
 CREATE TABLE visits (name_id INT, vets_id INT);
 ALTER TABLE visits ADD FOREIGN KEY (name_id) REFERENCES animals (id); 
 ALTER TABLE visits ADD FOREIGN KEY (vets_id) REFERENCES vets (id);
+ALTER TABLE visits ADD date_of_visit DATE;
