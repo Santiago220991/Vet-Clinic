@@ -75,5 +75,5 @@ INSERT INTO visits (name_id, vets_id, date_of_visit) VALUES ((SELECT id FROM ani
 INSERT INTO visits (name_id, vets_id, date_of_visit) VALUES ((SELECT id FROM animals WHERE name='Boarmon'), (SELECT id FROM vets WHERE name='Maisy Smith'), '2020-02-27');
 INSERT INTO visits (name_id, vets_id, date_of_visit) VALUES ((SELECT id FROM animals WHERE name='Boarmon'), (SELECT id FROM vets WHERE name='Maisy Smith'), '2020-10-03');
 INSERT INTO visits (name_id, vets_id, date_of_visit) VALUES ((SELECT id FROM animals WHERE name='Blossom'), (SELECT id FROM vets WHERE name='Stephanie Mendez'), '2020-05-24');
-INSERT INTO visits (name_id, vets_id, date_of_visit) VALUES ((SELECT id FROM animals WHERE name='Blossom'), (SELECT id FROM vets WHERE name='Stephanie Mendez'), '2021-01-11');
+INSERT INTO visits (name_id, vets_id, date_of_visit) VALUES ((SELECT id FROM animals WHERE name='Blossom'), (SELECT id FROM vets WHERE name='William Tatcher'), '2021-01-11');
 
